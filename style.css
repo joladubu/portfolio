@@ -60,7 +60,6 @@ h1 {
 #join-container{
     background: url('img/screen1.jpg') no-repeat;
     background-size: cover;
-    /* background-position: 0 60%; */
     padding-bottom: 5%;
 }
     
@@ -106,6 +105,7 @@ h1 {
 .links .row a {
     margin-left: -10px;
     margin-right: 18px;
+    padding-top: 12px;
     color: #fff !important;
 }
 
@@ -126,15 +126,18 @@ h1 {
 @media (max-width:850px) {
     .links .row a {
         margin: auto auto;
+        padding-top: 12px;    
         color: inherit;
     }
 }
 
-@media(max-width:580px) {
-margin: auto auto;
-color: inherit;
-margin-top: 5%;
-
+@media (max-width:580px) {
+    .links .row a {
+        margin: auto auto;
+        color: inherit;
+        padding-top: 12px;    
+        margin-top: 5%;
+    }
 }
 
 
