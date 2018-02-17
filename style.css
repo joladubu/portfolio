@@ -1,0 +1,148 @@
+body {
+    color:#fff;
+    
+}
+
+#hero {
+    background: url('img/bg.jpg') no-repeat;
+    background-size:cover;
+    background-position: 0 60%;
+}
+
+.nav-color a {
+    color:#00FFC4 !important;
+}   
+
+.navbar {
+    width:100%;
+    background: none !important;
+    bottom: -10%;
+}
+
+    .navbar-toggler {
+        cursor: pointer;
+        outline: 0;
+    }
+
+   
+
+    .nav-item {
+        padding: 0 1rem;
+    }
+
+.justify-content-end {
+    margin-right: 2rem;
+}
+
+h1 {
+    font-weight:bold;
+    font-size:3.5em;
+}
+
+.hero-img {
+    width:80%;
+}
+
+.feature-wrapper {
+    color:#000;
+    background: #ffffff;   
+}
+
+.feature-wrapper .h4 {
+    color: gray;
+}
+
+.feature-wrapper .container .row  a {
+    color: black;
+    text-decoration: none;
+}
+
+#join-container{
+    background: url('img/screen1.jpg') no-repeat;
+    background-size: cover;
+    /* background-position: 0 60%; */
+    padding-bottom: 5%;
+}
+    
+
+    h2 {
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+
+    h4 {
+        color:gray;
+    }
+
+    .form-control {
+        background:#111111;
+        padding:10px;
+        color: #fff;
+    }
+
+    form input[type="email"] {
+        border:2px solid #fff;
+    }
+
+    form input[placeholder="Enter email"] {
+        color: #fff;
+    }
+
+    form textarea[name="textarea"] {
+        border:2px solid #fff;
+        
+    }
+
+    .btn {
+        padding:12px;
+        border:none;
+        color:#fff;
+        cursor:pointer;
+        background: #00FFC4;
+    }   
+
+
+
+.links .row a {
+    margin-left: -10px;
+    margin-right: 18px;
+    color: #fff !important;
+}
+
+.overflow {
+    text-overflow: hidden;
+    margin-top: 10%;
+    padding-bottom: 15%;
+}
+
+@media(max-width:34em) {
+    .navbar {
+        background:black !important;
+        width: 100%;
+        /* top: 70; */
+    }
+}
+
+@media (max-width:850px) {
+    .links .row a {
+        margin: auto auto;
+        color: inherit;
+    }
+}
+
+@media(max-width:580px) {
+margin: auto auto;
+color: inherit;
+margin-top: 5%;
+
+}
+
+
+
+@media(max-width: 34em) {
+    .nav-link {
+        font-weight:normal;
+        color:#fff !important;
+    }
+    
+}
